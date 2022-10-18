@@ -1,0 +1,5 @@
+class Extreme{
+    constructor(){
+        
+    }
+}

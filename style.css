@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.customButton {
+  width:10%;
+  height:10%;
+  background-color: #fea834;
+  border: 3px solid white;
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 17px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.restartButton {
+  width:50px;
+  height:50px;
+  background-image: url('./assets/restart.png');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.msgtext {
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
